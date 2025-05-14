@@ -46,7 +46,7 @@
         },
         {
             "SENSOR NAME": "Phil-Am",
-            "CURRENT": "0.0"
+            "CURRENT": "1.89"
         },
         {
             "SENSOR NAME": "Holy Spirit",
@@ -58,7 +58,7 @@
         },
         {
             "SENSOR NAME": "South Triangle",
-            "CURRENT": "0.0"
+            "CURRENT": "1.31"
         },
         {
             "SENSOR NAME": "Nagkaisang Nayon",
@@ -66,7 +66,7 @@
         },
         {
             "SENSOR NAME": "Tandang Sora",
-            "CURRENT": "0.0"
+            "CURRENT": "1.96"
         },
         {
             "SENSOR NAME": "Talipapa",
@@ -74,51 +74,51 @@
         },
         {
             "SENSOR NAME": "Brgy Fairview (REC)",
-            "CURRENT": "1.12"
+            "CURRENT": "1.27"
         },
         {
             "SENSOR NAME": "Brgy Baesa Hall",
-            "CURRENT": "1.22"
+            "CURRENT": "1.39"
         },
         {
             "SENSOR NAME": "Brgy N.S Amoranto Hall",
-            "CURRENT": "1.2"
+            "CURRENT": "1.44"
         },
         {
             "SENSOR NAME": "Brgy Valencia Hall",
-            "CURRENT": "1.27"
+            "CURRENT": "1.4"
         }
     ],
     "flood_sensors": [
         {
             "SENSOR NAME": "North Fairview",
-            "CURRENT": "6.95",
+            "CURRENT": "6.88",
             "NORMAL LEVEL": "6.87",
-            "DESCRIPTION": "6.95"
+            "DESCRIPTION": "6.88"
         },
         {
             "SENSOR NAME": "Batasan-San Mateo",
-            "CURRENT": "10.12",
+            "CURRENT": "10.26",
             "NORMAL LEVEL": "10.2",
-            "DESCRIPTION": "10.12"
+            "DESCRIPTION": "10.26"
         },
         {
             "SENSOR NAME": "Bahay Toro",
-            "CURRENT": "8.35",
+            "CURRENT": "8.36",
             "NORMAL LEVEL": "8.54",
-            "DESCRIPTION": "8.35"
+            "DESCRIPTION": "8.36"
         },
         {
             "SENSOR NAME": "Sta Cruz",
-            "CURRENT": "9.34",
+            "CURRENT": "9.36",
             "NORMAL LEVEL": "9.1",
-            "DESCRIPTION": "9.34"
+            "DESCRIPTION": "9.36"
         },
         {
             "SENSOR NAME": "San Bartolome",
-            "CURRENT": "6.46",
+            "CURRENT": "6.43",
             "NORMAL LEVEL": "6.25",
-            "DESCRIPTION": "6.46"
+            "DESCRIPTION": "6.43"
         }
     ],
     "street_flood_sensors": [
@@ -208,7 +208,7 @@
         },
         {
             "SENSOR NAME": "Phil-Am",
-            "CURRENT": "0.0"
+            "CURRENT": "1.89"
         },
         {
             "SENSOR NAME": "Holy Spirit",
@@ -220,7 +220,7 @@
         },
         {
             "SENSOR NAME": "South Triangle",
-            "CURRENT": "0.0"
+            "CURRENT": "1.31"
         },
         {
             "SENSOR NAME": "Nagkaisang Nayon",
@@ -228,7 +228,7 @@
         },
         {
             "SENSOR NAME": "Tandang Sora",
-            "CURRENT": "0.0"
+            "CURRENT": "1.96"
         },
         {
             "SENSOR NAME": "Talipapa",
