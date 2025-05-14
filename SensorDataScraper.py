@@ -75,6 +75,7 @@ def setup_chrome_driver():
     """Setup Chrome WebDriver with proper options and error handling"""
     try:
         chrome_options = Options()
+        chrome_options.add_argument("--headless")
         chrome_options.add_argument("--headless=new")  # Use new headless mode
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--disable-dev-shm-usage")
