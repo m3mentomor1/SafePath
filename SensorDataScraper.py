@@ -99,7 +99,7 @@ def setup_chrome_driver():
         chrome_options.add_argument("--disable-webgl2")
         chrome_options.add_argument("--disable-3d-apis")
         # Initialize ChromeDriver
-        service = Service(ChromeDriverManager().install())
+        service = Service("/usr/bin/chromedriver")
         driver = webdriver.Chrome(service=service, options=chrome_options)
         driver.set_page_load_timeout(60)
         driver.implicitly_wait(30)
