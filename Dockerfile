@@ -1,7 +1,7 @@
 # Use an official Python runtime as a parent image
 FROM python:3.10-slim
 
-# Install Chrome dependencies and Chrome browser
+# Install dependencies including Chromium
 RUN apt-get update && apt-get install -y \
     wget \
     unzip \
@@ -21,13 +21,9 @@ RUN apt-get update && apt-get install -y \
     libxdamage1 \
     libxrandr2 \
     xdg-utils \
+    chromium \
     --no-install-recommends && \
     rm -rf /var/lib/apt/lists/*
-
-# Install Google Chrome (stable)
-RUN wget -q -O /tmp/chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
-    apt-get install -y /tmp/chrome.deb && \
-    rm /tmp/chrome.deb
 
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
